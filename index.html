@@ -38,9 +38,11 @@
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="navbar-nav ml-auto">
 
-                <li class="nav-item"> <a class="nav-link" href="#android">Android</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#iphone">iPhone</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#windows">Windows</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#android">Android <i class="ti ti-android"></i></a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#iphone">iPhone <i class="ti ti-apple"></i></a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#windows">Windows <i
+                      class="ti ti-microsoft-alt"></i></a> </li>
 
               </ul>
             </div>
@@ -63,7 +65,7 @@
   <div class="section light-bg" id="android">
     <div class="container">
       <div class="section-title">
-        <h3>Android</h3>
+        <h3>Android <i class="ti ti-android"></i></h3>
         <small>Esta es una guía que puede variar dependiendo del fabricante del dispositivo y la versión del sistema
           operativo</small>
       </div>
@@ -331,7 +333,7 @@
   <div class="section" id="iphone">
     <div class="container">
       <div class="section-title">
-        <h3>iPhone</h3>
+        <h3>iPhone <i class="ti ti-apple"></i></h3>
         <small>Esta configuración está disponible para iOS versión 17 y posterior</small>
       </div>
       <div class="d-flex flex-column flex-lg-row">
@@ -464,27 +466,25 @@
   </div>
   <!-- // end .section -->
 
-
-
   <!-- Windows -->
   <div class="section light-bg" id="windows">
     <div class="container">
 
       <div class="section-title">
-        <h3>Windows</h3>
+        <h3>Windows <i class="ti ti-microsoft-alt"></i></h3>
         <small>Esta es una guía que puede variar dependiendo de la versión de Windows</small>
       </div>
 
       <ul class="nav nav-tabs nav-justified" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#winbasic">Windows Básico <i
-              class="ti ti-microsoft"></i></a>
+          <a class="nav-link active" data-toggle="tab" href="#winbasic">Windows Básico</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" data-toggle="tab" href="#winadvanced">Windows Avanzado <i class="ti ti-microsoft"></i></a>
+          <a class="nav-link" data-toggle="tab" href="#winadvanced">Windows Avanzado</a>
         </li>
       </ul>
       <div class="tab-content">
+
         <!-- Básico -->
         <div class="tab-pane fade show active" id="winbasic">
           <div class="d-flex flex-column flex-lg-row">
@@ -499,7 +499,8 @@
 
                 <div class="card-body">
                   <p class="card-text">Activa el Wi-Fi en tu dispositivo y selecciona la red
-                    <strong>CAMPUS_CEMID</strong>.</p>
+                    <strong>CAMPUS_CEMID</strong>.
+                  </p>
                   <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
                 </div>
               </div>
@@ -598,7 +599,8 @@
                 </div>
                 <div class="card-body">
                   <p class="card-text"><span class="text-success">¡Felicidades!</span> estás conectado a
-                    <strong>CAMPUS_CEMID</strong>.</p>
+                    <strong>CAMPUS_CEMID</strong>.
+                  </p>
                   <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
                 </div>
               </div>
@@ -615,39 +617,365 @@
               <!-- Slide 1 -->
               <div class="card">
                 <div class="card-head">
-                  <h2 class="card-title my-3 text-center">Paso 1</h2>
-                  <img src="images/iphone_paso_01.jpg" class="card-img-top" alt="...">
+                  <h2 class="card-title my-3 text-center">Paso 1a</h2>
+                  <img src="images/windows_advanced_paso-01.jpg" class="card-img-top" alt="...">
                 </div>
 
                 <div class="card-body">
-                  <p class="card-text">Activa el Wi-Fi en tu dispositivo y selecciona la red
-                    <strong>CAMPUS_CEMID</strong>.</p>
-                  <p class="card-text"><small class="text-danger float-right">** Disponible para iOS 17 o
-                      posterior</small></p>
+                  <div class="d-flex">
+                    <p class="card-text mb-0">Abre el <strong>Panel de control</strong> y selecciona el <strong>Centro
+                        de
+                        redes y recursos compartidos</strong></p>
+                    <button type="button" class="align-self-end badge badge-info float-right border-0"
+                      data-toggle="popover" title="Información adicional"
+                      data-content="Puedes abrir directamente con el comando 'control /name Microsoft.NetworkAndSharingCenter' a través del menú Ejecutar (Win + R)">?</button>
+                  </div>
+                  <br>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
                 </div>
               </div>
 
               <!-- Slide 2 -->
               <div class="card">
                 <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 1b</h2>
+                  <img src="images/windows_advanced_paso-02.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <div class="d-flex">
+                    <p class="card-text mb-0">También puede buscar y abrir directamente el <strong>Centro de
+                        redes y recursos compartidos</strong></p>
+                    <button type="button" class="align-self-end badge badge-info float-right border-0"
+                      data-toggle="popover" title="Información adicional"
+                      data-content="Puedes abrir directamente con el comando 'control /name Microsoft.NetworkAndSharingCenter' a través del menú Ejecutar (Win + R)">?</button>
+                  </div>
+                  <br>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="card">
+                <div class="card-head">
                   <h2 class="card-title my-3 text-center">Paso 2</h2>
-                  <img src="images/iphone_paso_02.jpg" class="card-img-top" alt="...">
+                  <img src="images/windows_advanced_paso-03.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <div class="d-flex">
+                    <p class="card-text mb-0">En el <strong>Centro de redes y recursos compartidos</strong> selecciona
+                      <strong class="text-success">Configurar una nueva conexión o red</strong>
+                    </p>
+                  </div>
+                  <br>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="card">
+                <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 3</h2>
+                  <img src="images/windows_advanced_paso-04.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <div class="d-flex">
+                    <p class="card-text mb-0">Elije la opción <strong class="text-success">Conectarse manualmente a una
+                        red inalámbrica</strong>
+                    </p>
+                  </div>
+                  <br>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 5 -->
+              <div class="card">
+                <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 4</h2>
+                  <img src="images/windows_advanced_paso-05.jpg" class="card-img-top" alt="...">
                 </div>
 
                 <div class="card-body">
                   <p class="card-text mt-2">Selecciona alguna de las opciones para obtener mayor información</p>
                   <p class="card-text">
-                  <div class="accordion" id="accordion1-iphone">
+                  <div class="accordion" id="accordion1-winadvanced">
                     <!-- Paso 1 -->
                     <div class="card border-success mb-1">
-                      <div class="card-header bg-success border-0 p-0" id="acc1paso1-iphone">
+                      <div class="card-header bg-success border-0 p-0" id="acc1paso1-winadvanced">
                         <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
-                          data-target="#collapse1Acc1-iphone" aria-expanded="true"
-                          aria-controls="collapse1Acc1-iphone">1</a>
+                          data-target="#collapse1Acc1-winadvanced" aria-expanded="true"
+                          aria-controls="collapse1Acc1-winadvanced">1</a>
                       </div>
 
-                      <div id="collapse1Acc1-iphone" class="collapse show" aria-labelledby="acc1paso1-iphone"
-                        data-parent="#accordion1-iphone">
+                      <div id="collapse1Acc1-winadvanced" class="collapse show" aria-labelledby="acc1paso1-winadvanced"
+                        data-parent="#accordion1-winadvanced">
+                        <div class="card-body">
+                          <p class="m-0">Escribe el nombre de la red <strong class="text-success">CAMPUS_CEMID</strong>.
+                          </p>
+                        </div>
+                        <div>
+                          <button type="button" class="badge badge-info float-right mb-2 mr-2 border-0"
+                            data-toggle="popover" title="Información adicional"
+                            data-content="Verifica que esté escrito en mayúsculas y con el guión bajo (_)">?</button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- Paso 2 -->
+                    <div class="card border-success mb-1">
+                      <div class="card-header bg-success border-0 p-0" id="acc1paso2-winadvanced">
+                        <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
+                          data-target="#collapse2Acc1-winadvanced" aria-expanded="true"
+                          aria-controls="collapse2Acc1-winadvanced">2</a>
+                      </div>
+
+                      <div id="collapse2Acc1-winadvanced" class="collapse" aria-labelledby="acc1paso2-winadvanced"
+                        data-parent="#accordion1-winadvanced">
+                        <div class="card-body">
+                          <p class="m-0">Selecciona el tipo de seguridad <strong
+                              class="text-success">WPA2-Enterprise</strong>.</p>
+                        </div>
+                        <div>
+                          <button type="button" class="badge badge-info float-right mb-2 mr-2 border-0"
+                            data-toggle="popover" title="Información adicional"
+                            data-content="¡Cuidado! No la confundas con WPA2-Personal">?</button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- Paso 3 -->
+                    <div class="card border-success mb-1">
+                      <div class="card-header bg-success border-0 p-0" id="acc1paso3-winadvanced">
+                        <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
+                          data-target="#collapse3Acc1-winadvanced" aria-expanded="true"
+                          aria-controls="collapse3Acc1-winadvanced">3</a>
+                      </div>
+
+                      <div id="collapse3Acc1-winadvanced" class="collapse" aria-labelledby="acc1paso3-winadvanced"
+                        data-parent="#accordion1-winadvanced">
+                        <div class="card-body">
+                          <p class="m-0">Selecciona <strong class="text-success">Siguiente</strong> para continuar la
+                            configuración.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </p>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 6 -->
+              <div class="card">
+                <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 5</h2>
+                  <img src="images/windows_advanced_paso-06.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <div class="d-flex">
+                    <p class="card-text mb-0">Se agregó correctamente la red. Ahora selecciona <strong
+                        class="text-success">Cambiar la configuración de la conexión</strong>.</p>
+                  </div>
+                  <br>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 7 -->
+              <div class="card">
+                <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 6</h2>
+                  <img src="images/windows_advanced_paso-07.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <div class="d-flex">
+                    <p class="card-text mb-0">Elije la pestaña <strong class="text-success">Seguridad</strong>.</p>
+                  </div>
+                  <br>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 8 -->
+              <div class="card">
+                <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 7</h2>
+                  <img src="images/windows_advanced_paso-08.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <p class="card-text mt-2">Selecciona alguna de las opciones para obtener mayor información</p>
+                  <p class="card-text">
+                  <div class="accordion" id="accordion2-winadvanced">
+                    <!-- Paso 1 -->
+                    <div class="card border-success mb-1">
+                      <div class="card-header bg-success border-0 p-0" id="acc2paso1-winadvanced">
+                        <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
+                          data-target="#collapse1Acc2-winadvanced" aria-expanded="true"
+                          aria-controls="collapse1Acc2-winadvanced">1</a>
+                      </div>
+
+                      <div id="collapse1Acc2-winadvanced" class="collapse show" aria-labelledby="acc2paso1-winadvanced"
+                        data-parent="#accordion2-winadvanced">
+                        <div class="card-body">
+                          <p class="m-0">Selecciona el método de autenticación <strong class="text-success">Microsoft:
+                              EAP-TTLS</strong>.</p>
+                        </div>
+                        <div>
+                          <button type="button" class="badge badge-info float-right mb-2 mr-2 border-0"
+                            data-toggle="popover" title="Información adicional"
+                            data-content="Ten en cuenta que es TTLS (con doble T)">?</button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- Paso 2 -->
+                    <div class="card border-success mb-1">
+                      <div class="card-header bg-success border-0 p-0" id="acc2paso2-winadvanced">
+                        <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
+                          data-target="#collapse2Acc2-winadvanced" aria-expanded="true"
+                          aria-controls="collapse2Acc2-winadvanced">2</a>
+                      </div>
+
+                      <div id="collapse2Acc2-winadvanced" class="collapse" aria-labelledby="acc2paso2-winadvanced"
+                        data-parent="#accordion2-winadvanced">
+                        <div class="card-body">
+                          <p class="m-0">Acciona el botón <strong class="text-success">Configuración</strong> del método
+                            de autenticación <strong>EAP-TTLS</strong>.</p>
+                        </div>
+                        <div>
+                          <button type="button" class="badge badge-info float-right mb-2 mr-2 border-0"
+                            data-toggle="popover" title="Información adicional"
+                            data-content="¡Cuidado! No la confundas con Configuración avanzada">?</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </p>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 9 -->
+              <div class="card">
+                <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 8</h2>
+                  <img src="images/windows_advanced_paso-09.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <p class="card-text mt-2">Selecciona alguna de las opciones para obtener mayor información</p>
+                  <p class="card-text">
+                  <div class="accordion" id="accordion3-winadvanced">
+                    <!-- Paso 1 -->
+                    <div class="card border-success mb-1">
+                      <div class="card-header bg-success border-0 p-0" id="acc3paso1-winadvanced">
+                        <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
+                          data-target="#collapse1Acc3-winadvanced" aria-expanded="true"
+                          aria-controls="collapse1Acc3-winadvanced">1</a>
+                      </div>
+
+                      <div id="collapse1Acc3-winadvanced" class="collapse show" aria-labelledby="acc3paso1-winadvanced"
+                        data-parent="#accordion3-winadvanced">
+                        <div class="card-body">
+                          <p class="m-0">Escribe el nombre del servidor <strong
+                              class="text-success">radius.cemid.org</strong>.</p>
+                        </div>
+                        <div>
+                          <button type="button" class="badge badge-info float-right mb-2 mr-2 border-0"
+                            data-toggle="popover" title="Información adicional"
+                            data-content="Debes escribirlo en minúsculas y sin espacios">?</button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- Paso 2 -->
+                    <div class="card border-success mb-1">
+                      <div class="card-header bg-success border-0 p-0" id="acc3paso2-winadvanced">
+                        <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
+                          data-target="#collapse2Acc3-winadvanced" aria-expanded="true"
+                          aria-controls="collapse2Acc3-winadvanced">2</a>
+                      </div>
+
+                      <div id="collapse2Acc3-winadvanced" class="collapse" aria-labelledby="acc3paso2-winadvanced"
+                        data-parent="#accordion3-winadvanced">
+                        <div class="card-body">
+                          <p class="m-0">Selecciona la opción <strong class="text-success">Contraseña no cifrada
+                              (PAP)</strong>.</p>
+                        </div>
+                        <div>
+                          <button type="button" class="badge badge-info float-right mb-2 mr-2 border-0"
+                            data-toggle="popover" title="Información adicional"
+                            data-content="Recuerda es PAP">?</button>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- Paso 3 -->
+                    <div class="card border-success mb-1">
+                      <div class="card-header bg-success border-0 p-0" id="acc3paso3-winadvanced">
+                        <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
+                          data-target="#collapse3Acc3-winadvanced" aria-expanded="true"
+                          aria-controls="collapse3Acc3-winadvanced">3</a>
+                      </div>
+
+                      <div id="collapse3Acc3-winadvanced" class="collapse" aria-labelledby="acc3paso3-winadvanced"
+                        data-parent="#accordion3-winadvanced">
+                        <div class="card-body">
+                          <p class="m-0">Aplica todos los cambios dando <strong class="text-success">Aceptar</strong> en
+                            los cuadros de diálogo que hemos abierto hasta ahora.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </p>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 10 -->
+              <div class="card">
+                <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 9</h2>
+                  <img src="images/windows_advanced_paso-10.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <div class="d-flex">
+                    <p class="card-text mb-0">Abre el panel del Wi-Fi e intenta conectarte a la red <strong
+                        class="text-success">CAMPUS_CEMID</strong>.</p>
+                  </div>
+                  <br>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
+                </div>
+              </div>
+
+              <!-- Slide 11 -->
+              <div class="card">
+                <div class="card-head">
+                  <h2 class="card-title my-3 text-center">Paso 10</h2>
+                  <img src="images/windows_advanced_paso-11.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                  <p class="card-text mt-2">Selecciona alguna de las opciones para obtener mayor información</p>
+                  <p class="card-text">
+                  <div class="accordion" id="accordion4-winbasic">
+                    <!-- Paso 1 -->
+                    <div class="card border-success mb-1">
+                      <div class="card-header bg-success border-0 p-0" id="acc4paso1-winbasic">
+                        <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
+                          data-target="#collapse1Acc4-winbasic" aria-expanded="true"
+                          aria-controls="collapse1Acc4-winbasic">1</a>
+                      </div>
+
+                      <div id="collapse1Acc4-winbasic" class="collapse show" aria-labelledby="acc4paso1-winbasic"
+                        data-parent="#accordion4-winbasic">
                         <div class="card-body">
                           <p class="m-0">Ingresa tu correo de <strong class="text-success">Microsoft 365</strong>.</p>
                         </div>
@@ -661,14 +989,14 @@
                     </div>
                     <!-- Paso 2 -->
                     <div class="card border-success mb-1">
-                      <div class="card-header bg-success border-0 p-0" id="acc1paso2-iphone">
+                      <div class="card-header bg-success border-0 p-0" id="acc4paso2-winbasic">
                         <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
-                          data-target="#collapse2Acc1-iphone" aria-expanded="true"
-                          aria-controls="collapse2Acc1-iphone">2</a>
+                          data-target="#collapse2Acc4-winbasic" aria-expanded="true"
+                          aria-controls="collapse2Acc4-winbasic">2</a>
                       </div>
 
-                      <div id="collapse2Acc1-iphone" class="collapse" aria-labelledby="acc1paso2-iphone"
-                        data-parent="#accordion1-iphone">
+                      <div id="collapse2Acc4-winbasic" class="collapse" aria-labelledby="acc4paso2-winbasic"
+                        data-parent="#accordion4-winbasic">
                         <div class="card-body">
                           <p class="m-0">Digita tu <strong class="text-success">Número de documento</strong>.</p>
                         </div>
@@ -678,65 +1006,59 @@
                             data-content="El que tenemos registrado en CEMIDWeb">?</button>
                         </div>
                       </div>
-
                     </div>
                     <!-- Paso 3 -->
                     <div class="card border-success mb-1">
-                      <div class="card-header bg-success border-0 p-0" id="acc1paso3-iphone">
+                      <div class="card-header bg-success border-0 p-0" id="acc4paso3-winbasic">
                         <a class="d-block text-center text-white py-3" data-toggle="collapse" role="button"
-                          data-target="#collapse3Acc1-iphone" aria-expanded="true"
-                          aria-controls="collapse3Acc1-iphone">3</a>
+                          data-target="#collapse3Acc4-winbasic" aria-expanded="true"
+                          aria-controls="collapse3Acc4-winbasic">3</a>
                       </div>
 
-                      <div id="collapse3Acc1-iphone" class="collapse" aria-labelledby="acc1paso3-iphone"
-                        data-parent="#accordion1-iphone">
+                      <div id="collapse3Acc4-winbasic" class="collapse" aria-labelledby="acc4paso3-winbasic"
+                        data-parent="#accordion4-winbasic">
                         <div class="card-body">
-                          <p class="m-0">Selecciona la opción <strong class="text-success">Conectar</strong>.</p>
+                          <p class="m-0">Selecciona la opción <strong class="text-success">Aceptar</strong>.</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   </p>
-                  <p class="card-text"><small class="text-danger float-right">** Disponible para iOS 17 o
-                      posterior</small></p>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
                 </div>
               </div>
 
-              <!-- Slide 3 -->
+              <!-- Slide 12 -->
               <div class="card">
                 <div class="card-head">
-                  <h2 class="card-title my-3 text-center">Paso 3</h2>
-                  <img src="images/iphone_paso_03.jpg" class="card-img-top" alt="...">
+                  <h2 class="card-title my-3 text-center">Paso 11</h2>
+                  <img src="images/windows_advanced_paso-12.jpg" class="card-img-top" alt="...">
                 </div>
 
                 <div class="card-body">
-                  <p class="card-text">Selecciona la opción <strong class="text-success">Confiar</strong> para guardar
-                    el certificado de seguridad y conectarte a la red Wi-Fi.</p>
-                  <p class="card-text"><small class="text-danger float-right">** Disponible para iOS 17 o
-                      posterior</small></p>
+                  <p class="m-0">Selecciona la opción <strong class="text-success">Conectar</strong>.</p>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
                 </div>
               </div>
 
-              <!-- Slide 4 -->
+              <!-- Slide 13 -->
               <div class="card">
                 <div class="card-head">
-                  <h2 class="card-title my-3 text-center">Paso 4</h2>
-                  <img src="images/iphone_paso_04.jpg" class="card-img-top" alt="...">
+                  <h2 class="card-title my-3 text-center">Paso 12</h2>
+                  <img src="images/windows_advanced_paso-13.jpg" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <p class="card-text"><span class="text-success">¡Felicidades!</span> estás conectado a
-                    <strong>CAMPUS_CEMID</strong>.</p>
-                  <p class="card-text"><small class="text-danger float-right">** Disponible para iOS 17 o
-                      posterior</small></p>
+                    <strong>CAMPUS_CEMID</strong>.
+                  </p>
+                  <p class="card-text"><small class="text-muted float-right">Ejemplo Windows 10</small></p>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
 
       </div>
-
     </div>
   </div>
   <!-- // end .section -->
